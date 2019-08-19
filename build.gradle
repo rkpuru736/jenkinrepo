@@ -1,0 +1,6 @@
+task copyWebFiles(type: Copy) {
+    from '/php'             // source directory
+    into '/var/www/html'   // target directory
+}
+
+
